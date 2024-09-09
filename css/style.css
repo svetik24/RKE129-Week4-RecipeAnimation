@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap');
+
+body {
+background-color: beige;
+
+ }
+.heading {
+font-family: "Playwrite CU", cursive;
+color: blueviolet;
+position: relative;
+animation: header;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+ }
+@keyframes header {
+    0% {top: -250px}
+    100% {top: 0}
+}
+
+
+.image {
+   width: 250px; 
+ }
+
+.ingredients {
+border: 1px solid black;
+width: 50%;
+margin-right: 50%;
+color: blue;
+animation: ingredients;
+animation-duration: 5s;
+animation-delay: 4s;
+animation-fill-mode: forwards;
+ }
+@keyframes ingredients {
+    0% {opacity: 0; }
+    100% {opacity: 1; }
+}
+
+
+.ingredients-table{
+border: 1px solid black;
+margin-right: auto;
+ }
+
+.instructions{
+border: 1px solid black;
+width: 50%;
+margin-right: auto;
+color: brown;
+position: relative;
+animation: textRight;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+ }
+ @keyframes textRight {
+    0% {right: -1000px; }
+    85% {right: 50px; }
+    100% {right: 0; }
+ }
+
+
+ .footer {
+
+    font-family: "Sevillana", cursive;
+    font-size: 1rem;
+
+}
